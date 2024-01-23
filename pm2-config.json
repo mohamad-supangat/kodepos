@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "kodepos",
+      "script": "node ./dist/app.js",
+
+      "merge_logs": true,
+      "env": {
+        "HOST": "0.0.0.0"
+      }
+    }
+  ]
+}
