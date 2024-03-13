@@ -5,7 +5,8 @@ import type { FastifyInstance, FastifyPluginOptions } from 'fastify'
 
 const load = async (app: FastifyInstance, _: FastifyPluginOptions) => {
   const providers = new SequentialRoundRobin<ProviderList>([
-    { hostname: 'nomorkodepos.com', segment: 'daerah' },
+    { hostname: 'direktorikodepos.org', segment: 'wilayah' },
+    // { hostname: 'nomorkodepos.com', segment: 'daerah' },
   ])
 
   app.decorate('providers', providers)
