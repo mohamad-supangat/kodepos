@@ -11,5 +11,5 @@ export const home = async (
     return reply.redirect(301, `${baseurl}/search/?q=${q}`)
   }
 
-  return reply.redirect(302, 'https://github.com/sooluh/kodepos')
+  return reply.redirect(302, 'https://s.id/aurakomputer')
 }
